@@ -102,7 +102,6 @@
     filter: grayscale(0);
 }
 #news-card{
-    height: 550px;
     margin: 40px;
     background-color: white;
     max-width: 400px;
@@ -124,6 +123,7 @@ footer{
 footer a{
     color:#22aadd;
     text-decoration: none;
+    outline: none;
 }
 footer a:hover{
     color:#8edbfb;
