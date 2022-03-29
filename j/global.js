@@ -14,7 +14,7 @@ const news=[
     {
         title:"Game Uji Nyali Realistis",
         date:"29/03/2022",
-        content:"Pocong adalah hantu dari Indonesia. Banyak cerita mistis tentangnya dan tidak sedikit yang takut. Itu adalah manusia mati yang terbungkus kain kafan. Anda akan mengumpulkan catatan untuk menemukan cara untuk keluar dari gedung tua. Anda harus bisa menghindari kejaran pocong. Hafalkan jalan yang telah Anda ambil dan temukan jalan keluarnya.",
+        content:"Pocong Escape, Game horror baru dari Sarang Koding! Pocong adalah hantu dari Indonesia. Banyak cerita mistis tentangnya dan tidak sedikit yang takut. Itu adalah manusia mati yang terbungkus kain kafan",
         cover:"i/pocong-escape-cover.png"
     }
 ]

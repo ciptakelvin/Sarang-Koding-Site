@@ -1,0 +1,20 @@
+@font-face {
+    font-family: nunito;
+    src: url("../f/Nunito/Nunito-Italic-VariableFont_wght.ttf");
+}
+*{
+    font-family: nunito;
+}
+#not-found-card{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    text-align: center;
+}
+#not-found-card img{
+    height: 100px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
