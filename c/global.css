@@ -49,13 +49,13 @@
 }
 #index-social svg{
     cursor: pointer;
-    height: 40px;
+    height: 20px;
     fill: white;
     margin-left: 20px;
     transition:0.3s;
 }
 #index-social svg:hover{
-    height: 50px;
+    height: 30px;
     transition:0.3s;
 }
 #index-cover{
@@ -81,7 +81,7 @@
 }
 #index-cover p{
     position: absolute;
-    top: 280px;
+    top: 300px;
     left: 50%;
     right: 20px;
     max-width: 350px;
