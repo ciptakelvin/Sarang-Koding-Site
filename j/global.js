@@ -1,4 +1,4 @@
-news=[
+const news=[
     {
         title:"Logo Baru SarangKoding!",
         date:"29/03/2022",
@@ -18,3 +18,10 @@ news=[
         cover:"i/pocong-escape-cover.png"
     }
 ]
+
+const featured_videos=[
+    "https://www.youtube.com/embed/DGWmecPcX4U",
+    "https://www.youtube.com/embed/JxFMcRzTJoY",
+    "https://www.youtube.com/embed/zKnuqqapt0M"
+
+];

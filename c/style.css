@@ -1,0 +1,348 @@
+@font-face {
+  font-family: nunito;
+  src: url("../f/Nunito/Nunito-VariableFont_wght.ttf");
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: nunito;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav{
+  padding: 20px;
+  color: white;
+
+  background-color: #25324b;
+
+}
+
+body strong{
+  color: #4a4a4a;
+  font-size: 18px;
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: rgba(200,200,200,1);
+
+  color:#4a4a4a;
+
+}
+footer a{
+  text-decoration: none;
+  color: #4a4a4a;
+  margin: 10px;
+}
+footer a:hover{
+  color: #9a9a9a;
+}
+
+.news-shine {
+  height: 200px;
+  width: 100%;
+  background: #f6f7f8;
+  background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 20%, #f6f7f8 40%, #f6f7f8 100%);
+  background-repeat: no-repeat;
+  background-size: 800px 200px;
+  position: relative;
+  display: inline-block;
+
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: placeholderShimmer;
+  -webkit-animation-timing-function: linear;
+  }
+.title{
+  margin: 40px 20px 20px 8%;
+  color: #4a4a4a;
+}
+.sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+
+}
+.blackButton{
+  padding: 10px;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid black;
+  margin: 20px 0px 0px 10px;
+  width: 100px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.blackButton:hover{
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+
+#black-course{
+  background-color: Black;
+  color: white;
+  padding: 50px 40px 50px 40px;
+  width: 720px;
+}
+#black-course p{
+  margin-top:25px;
+}
+#black-header{
+  background-color: Black;
+  color: white;
+  padding: 80px 40px 80px 40px;
+}
+#black-header p{
+  margin-top:25px;
+}
+#black-section{
+  background-color:black;
+  width: 100%;
+  color: white;
+  min-height: 500px;
+}
+#black-section p{
+  position: absolute;
+  top:280px;
+  left: 50%;
+  right: 20px;
+  max-width: 350px;
+}
+#black-section h1{
+  position: absolute;
+  top:160px;
+  left: 50%;
+  right: 20px;
+  max-width: 300px;
+}
+#black-section img{
+  width: 100%;
+  max-width: 1000px;
+
+}
+
+#logo{
+  height: 40px;
+}
+#news1,#news2,#news3{
+  display: none;
+}
+#courseContent{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+#courseContent h2{
+  margin: 20px;
+
+}
+#courseContent a{
+  color:#2088dd;
+  cursor: pointer;
+}
+#courseContent a:hover{
+  color:#90e8ff;
+}
+#pageContent{
+  padding: 40px;
+  max-width: 800px;
+}
+#pageContent strong,#pageContent a,#pageContent h1,#pageContent h2,#pageContent h3,#pageContent h4,#pageContent h5,#pageContent h6{
+  margin: 10px;
+}
+#pageContent strong,#pageContent a,#pageContent p,#pageContent ul{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#pageContent a{
+  color:#2088dd;
+
+  cursor: pointer;
+}
+#pageContent a:hover{
+  color:#90e8ff;
+}
+#list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  margin-left: 8%;
+}
+#listCard{
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+  margin: 20px;
+  width: 400px;
+  background-color: white;
+}
+#listCard img{
+  width: 100%;
+
+}
+
+#listCardContent{
+  padding: 30px;
+}
+#gameList{
+  width: 80%;
+  height: auto;
+  max-width: 500px;
+  margin-top: 40px;
+}
+#cubeGradient{
+  height: auto;
+  position: absolute;
+  right: 50px;
+  top: 450px;
+  width: 50%;
+  max-width: 300px;
+}
+
+
+#newLogo{
+  box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+}
+#newLogo img{
+  height: auto;
+  width: 80%;
+  max-width: 300px;
+
+}
+
+#menuHead{
+  background: rgba(0,0,0,0.9);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+#menuHead a{
+  color: white;
+}
+#menuHead a:hover{
+  color:#aaaaaa;
+}
+#menuHead ul{
+  list-style-type: none;
+
+
+}
+#menuHead li{
+  display: inline;
+  padding: 10px;
+}
+#menuHead li:hover{
+  cursor: pointer;
+}
+#menu{
+  background-color: #111111;
+}
+
+#menu a{
+  color: white;
+}
+#menu a:hover{
+  color:#aaaaaa;
+}
+#menu ul{
+  list-style-type: none;
+
+
+}
+#menu li{
+  display: inline;
+  padding: 10px;
+}
+#menu li:hover{
+  cursor: pointer;
+}
+#ourTeam{
+  margin-left: 8%;
+  margin-bottom: 50px;
+}
+#ourTeam img{
+  height: 50px;
+  filter: grayscale();
+  transition: 0.5s;
+  cursor: pointer;
+}
+#ourTeam img:hover{
+  height: 70px;
+  transition: 0.5s;
+  filter: none;
+}
+#login{
+  margin: 40px;
+}
+#login input{
+  margin: 7px;
+  padding: 10px;
+  width: 200px;
+}
+#verified{
+  color: orange;
+}
+#verify{
+  color:blue;
+
+  cursor: pointer;
+}
+#topSignIn{
+  position: absolute;
+  right: 80px;
+  top:35px;
+  cursor: pointer;
+}
+#topSignIn:hover{
+  color: #dddddd;
+}
+#videoCourse{
+  min-height: 300px;
+  width: 100%;
+  max-width: 500px;
+  border: none;
+}
+#courseTableContent{
+  margin: 20px;
+
+}
+#courseTableContent h3{
+  margin: 20px;
+  padding: 20px;
+  background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(41,49,56,1) 100%);
+  color: white;
+  max-width: 600px;
+
+}
+#courseTableContent a{
+  color:#2088dd;
+
+  margin: 50px;
+}
+#courseTableContent strong{
+  color:black;
+
+  margin: 0px 50px 0px 50px;
+}
+#courseTableContent a:hover{
+  color:#90e8ff;
+
+}
+@keyframes placeholderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
