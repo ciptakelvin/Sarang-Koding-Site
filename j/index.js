@@ -1,12 +1,11 @@
 window.onload=function(){
     var content="";
-    for(var n of news){
-        
+    for(var i=0;i<3;i++){
         content+="<div id='news-card'>";
-        content+="<b>"+n["title"]+"</b><br>";
-        content+="<p class='card-date'>"+n["date"]+"</p><br>";
-        content+="<img onload='finishLoading()' src='"+n["cover"]+"'></img><br>";
-        content+="<p class='justify'>"+n["content"]+"</p><br>";
+        content+="<b>"+news[i]["title"]+"</b><br>";
+        content+="<p class='card-date'>"+news[i]["date"]+"</p><br>";
+        content+="<img onload='finishLoading()' src='"+news[i]["cover"]+"'></img><br>";
+        content+="<p class='justify'>"+news[i]["content"]+"</p><br>";
         content+="</div>";
     }
     document.getElementById("index-news").innerHTML+=content;
@@ -15,9 +14,10 @@ window.onload=function(){
 }
 
 var loadCtr=0;
+var maxLoadCtr=5;
 function finishLoading(){
     loadCtr+=1;
-    if (loadCtr>=4){
+    if (loadCtr>=maxLoadCtr){
         document.getElementById("loader").style.display="none";
     }
 }
