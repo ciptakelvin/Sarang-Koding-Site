@@ -19,12 +19,12 @@
     filter: grayscale(1);
 }
 #index-news img:hover{
-    height: 200px;
+    width: 20%;
     transition: 0.2s;
     filter: grayscale(0);
 }
 #news-card{
-    height: 500px;
+    width: 100%;
     margin: 40px;
     background-color: white;
     max-width: 400px;
