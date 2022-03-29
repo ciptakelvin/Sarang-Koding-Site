@@ -1,0 +1,38 @@
+@font-face {
+    font-family: nunito;
+    src: url("../f/Nunito/Nunito-VariableFont_wght.ttf");
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: nunito;
+}
+#index-news{
+    background-color: #222222;
+    display: flex;
+    flex-wrap: wrap;
+}
+#index-news img{
+    height: 100px;
+    transition: 0.2s;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+#index-news img:hover{
+    height: 200px;
+    transition: 0.2s;
+    filter: grayscale(0);
+}
+#news-card{
+    height: 500px;
+    margin: 40px;
+    background-color: white;
+    max-width: 400px;
+    padding-top: 20px;
+}
+#news-card b{
+    margin: 20px;
+}
+#news-card p{
+    margin:10px 20px 10px 20px;
+}
