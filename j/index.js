@@ -1,5 +1,5 @@
 window.onload=function(){
-
+    document.getElementById("loader").style.display="none";
     var content="";
     for(var n of news){
         
