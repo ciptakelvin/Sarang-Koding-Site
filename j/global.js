@@ -2,7 +2,8 @@ const news=[
     {
         title:"Katla, Wordle Indonesia!",
         date:"07/07/2022",
-        content:"Kami merilis game baru berkaitan dengan permainan kata. Pemain akan menebak kata sesuai dengan KBBI. Dengan bermain ini diharapkan pemain dapat meningkatkan kosakata."
+        content:"Kami merilis game baru berkaitan dengan permainan kata. Pemain akan menebak kata sesuai dengan KBBI. Dengan bermain ini diharapkan pemain dapat meningkatkan kosakata.",
+        cover:"i/katla-feature.png"
     },
     {
         title:"Logo Baru SarangKoding!",
