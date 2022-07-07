@@ -1,5 +1,10 @@
 const news=[
     {
+        title:"Katla, Wordle Indonesia!",
+        date:"07/07/2022",
+        content:"Kami merilis game baru berkaitan dengan permainan kata. Pemain akan menebak kata sesuai dengan KBBI. Dengan bermain ini diharapkan pemain dapat meningkatkan kosakata."
+    },
+    {
         title:"Logo Baru SarangKoding!",
         date:"29/03/2022",
         content:"Dengan adanya logo baru ini, kami berharap kedepannya Sarang Koding semakin semangat dalam membuat game baru.",
